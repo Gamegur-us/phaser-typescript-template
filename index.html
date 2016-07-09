@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html{% if(o.htmlWebpackPlugin.files.manifest) { %} manifest="{%= o.htmlWebpackPlugin.files.manifest %}"{% } %}>
+  <head>
+    <meta charset="UTF-8">
+    
+    <style>
+    canvas {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    }</style>
+  </head>
+  <body>
+  </body>
+</html>
